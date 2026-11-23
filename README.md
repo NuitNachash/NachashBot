@@ -33,7 +33,6 @@ A multi-channel Twitch chat bot written in Python, built on the Twitch Helix API
 | `token_manager.py` | App, bot, and user token handling |
 | `twitch_api.py` | Helix API helpers |
 | `chat.py` | Sending chat messages |
-| `auth_server.py` | OAuth flow for adding the bot to a channel |
 | `logger.py` | Logging setup |
 
 
@@ -62,8 +61,8 @@ Permission levels: `everyone`, `vip`, `moderator`, `broadcaster`, `trusted`.
 
 ## Configuration
 
-Real credentials are not included from `config.py`. Secrets should be supplied through environment variables or a local, untracked config file.
+Credentials live in an untracked `config.py`; supply your own. Secrets should be supplied through environment variables or a local, untracked config file.
 
 ## License
 
-All rights reserved unless a license file states otherwise. You are welcome to read the code and use it as a reference.
+Source-available under PolyForm Strict 1.0.0, provided for reference only.
