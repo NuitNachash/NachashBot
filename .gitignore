@@ -1,0 +1,14 @@
+auth_server.py
+config.py
+tokens.json
+*.log
+ascii.py
+monitor.py
+*.png
+*.gif
+*.txt
+obs.py
+sql_check.py
+test.py
+vod.py
+__pycache__/
